@@ -1,1 +1,431 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les pouvoirs héréditaires de Naruto</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #10131b;
+    color: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    padding: 35px 20px;
+    background: linear-gradient(135deg, #a83232, #251b32);
+}
+
+header h1 {
+    margin: 0;
+    color: #ffb347;
+    font-size: 30px;
+}
+
+header p {
+    color: #ddd;
+}
+
+.search-container {
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+#searchBar {
+    width: 100%;
+    padding: 15px 18px;
+    border: 2px solid #ff8c42;
+    border-radius: 12px;
+    background: #202633;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+#searchBar:focus {
+    border-color: #ffc078;
+    box-shadow: 0 0 10px #ff8c4255;
+}
+
+#resultCount {
+    text-align: center;
+    color: #ffb347;
+    margin-top: 12px;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.category {
+    margin: 35px 0;
+}
+
+.category h2 {
+    color: #ff9b50;
+    border-bottom: 2px solid #a83232;
+    padding-bottom: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background: #202633;
+    border: 1px solid #394252;
+    border-radius: 12px;
+    padding: 18px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: #ff8c42;
+}
+
+.card h3 {
+    color: #ffbd75;
+    margin-top: 0;
+}
+
+.card p {
+    line-height: 1.5;
+    color: #d4d7df;
+}
+
+.tag {
+    display: inline-block;
+    background: #713b35;
+    color: #ffd2a1;
+    padding: 5px 9px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.no-results {
+    display: none;
+    text-align: center;
+    padding: 40px 15px;
+    color: #ffbd75;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #9299a8;
+    border-top: 1px solid #394252;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Les pouvoirs héréditaires de Naruto</h1>
+    <p>Découvre les Kekkei Genkai, les Dōjutsu et les techniques secrètes.</p>
+</header>
+
+<div class="search-container">
+    <input
+        type="search"
+        id="searchBar"
+        placeholder="🔎 Rechercher une technique, un clan ou un pouvoir..."
+        autocomplete="off"
+    >
+    <div id="resultCount">Toutes les techniques sont affichées.</div>
+</div>
+
+<main>
+
+<section class="category">
+<h2>Dōjutsu</h2>
+<div class="cards">
+
+<div class="card">
+<span class="tag">Dōjutsu</span>
+<h3>Sharingan</h3>
+<p>Œil du clan Uchiha permettant de percevoir les mouvements, copier certaines techniques et utiliser de puissants genjutsu.</p>
+</div>
+
+<div class="card">
+<span class="tag">Dōjutsu</span>
+<h3>Byakugan</h3>
+<p>Œil du clan Hyūga offrant une vision presque à 360 degrés, la perception du chakra et des points de circulation.</p>
+</div>
+
+<div class="card">
+<span class="tag">Dōjutsu</span>
+<h3>Rinnegan</h3>
+<p>Œil légendaire donnant accès aux pouvoirs des Six Chemins et à différentes capacités extraordinaires.</p>
+</div>
+
+<div class="card">
+<span class="tag">Dōjutsu</span>
+<h3>Tenseigan</h3>
+<p>Dōjutsu puissant associé au clan Ōtsutsuki et au clan Hyūga, notamment à Toneri.</p>
+</div>
+
+<div class="card">
+<span class="tag">Dōjutsu</span>
+<h3>Ketsuryūgan</h3>
+<p>Œil spécial du clan Chinoike permettant notamment d'utiliser des techniques de genjutsu et de manipuler le fer présent dans le sang.</p>
+</div>
+
+<div class="card">
+<span class="tag">Dōjutsu</span>
+<h3>Œil de Ranmaru</h3>
+<p>Capacité oculaire spéciale permettant de voir à travers certains obstacles et de perturber les perceptions visuelles. Présent dans l'anime.</p>
+</div>
+
+</div>
+</section>
+
+<section class="category">
+<h2>Kekkei Genkai élémentaires</h2>
+<div class="cards">
+
+<div class="card">
+<span class="tag">Fusion élémentaire</span>
+<h3>Hyōton</h3>
+<p>Libération de glace, combinaison du Suiton et du Fūton. Utilisée notamment par Haku.</p>
+</div>
+
+<div class="card">
+<span class="tag">Fusion élémentaire</span>
+<h3>Yōton</h3>
+<p>Libération de lave, généralement associée à une combinaison de Katon et de Doton.</p>
+</div>
+
+<div class="card">
+<span class="tag">Fusion élémentaire</span>
+<h3>Futton</h3>
+<p>Libération de vapeur, combinaison du Katon et du Suiton. Utilisée par Mei Terumī.</p>
+</div>
+
+<div class="card">
+<span class="tag">Fusion élémentaire</span>
+<h3>Ranton</h3>
+<p>Libération de tempête, combinaison du Raiton et du Suiton.</p>
+</div>
+
+<div class="card">
+<span class="tag">Fusion élémentaire</span>
+<h3>Bakuton</h3>
+<p>Libération explosive, associée à des techniques qui produisent des explosions.</p>
+</div>
+
+<div class="card">
+<span class="tag">Fusion élémentaire</span>
+<h3>Jiton</h3>
+<p>Libération magnétique permettant de manipuler les matériaux grâce au magnétisme.</p>
+</div>
+
+<div class="card">
+<span class="tag">Fusion élémentaire</span>
+<h3>Shōton</h3>
+<p>Libération du cristal, capacité présentée dans l'anime Naruto Shippuden.</p>
+</div>
+
+</div>
+</section>
+
+<section class="category">
+<h2>Kekkei Tōta</h2>
+<div class="cards">
+
+<div class="card">
+<span class="tag">Kekkei Tōta</span>
+<h3>Jinton</h3>
+<p>Libération de poussière, combinaison de trois natures : Katon, Fūton et Doton. Permet de désintégrer la matière.</p>
+</div>
+
+</div>
+</section>
+
+<section class="category">
+<h2>Capacités corporelles héréditaires</h2>
+<div class="cards">
+
+<div class="card">
+<span class="tag">Kekkei Genkai</span>
+<h3>Shikotsumyaku</h3>
+<p>Capacité du clan Kaguya permettant de manipuler la structure de ses os et de les utiliser comme armes.</p>
+</div>
+
+<div class="card">
+<span class="tag">Capacité spéciale</span>
+<h3>Pouvoir de Jūgo</h3>
+<p>Capacité naturelle à absorber l'énergie naturelle et à transformer son corps. Elle est à l'origine des recherches sur le sceau maudit.</p>
+</div>
+
+<div class="card">
+<span class="tag">Capacité corporelle</span>
+<h3>Fusion Sakon et Ukon</h3>
+<p>Capacité permettant aux deux frères de fusionner leurs corps et de se séparer à volonté.</p>
+</div>
+
+<div class="card">
+<span class="tag">Capacité spéciale</span>
+<h3>Transformation en fumée</h3>
+<p>Capacité du clan Iburi permettant de transformer son corps en fumée. Présente dans l'anime.</p>
+</div>
+
+</div>
+</section>
+
+<section class="category">
+<h2>Techniques secrètes des clans (Hiden)</h2>
+<div class="cards">
+
+<div class="card">
+<span class="tag">Clan Nara</span>
+<h3>Manipulation des ombres</h3>
+<p>Permet de contrôler les ombres pour immobiliser ou manipuler les mouvements d'un adversaire.</p>
+</div>
+
+<div class="card">
+<span class="tag">Clan Akimichi</span>
+<h3>Expansion corporelle</h3>
+<p>Permet d'agrandir certaines parties du corps ou le corps entier en utilisant le chakra.</p>
+</div>
+
+<div class="card">
+<span class="tag">Clan Yamanaka</span>
+<h3>Techniques mentales</h3>
+<p>Permettent de transférer son esprit dans une cible, communiquer mentalement ou lire certaines pensées.</p>
+</div>
+
+<div class="card">
+<span class="tag">Clan Aburame</span>
+<h3>Contrôle des insectes</h3>
+<p>Les membres du clan vivent en symbiose avec des insectes qu'ils contrôlent grâce à leur chakra.</p>
+</div>
+
+<div class="card">
+<span class="tag">Clan Uzumaki</span>
+<h3>Techniques de scellement</h3>
+<p>Le clan Uzumaki est réputé pour ses techniques de scellement et sa grande vitalité.</p>
+</div>
+
+<div class="card">
+<span class="tag">Clan Uzumaki</span>
+<h3>Chaînes de chakra</h3>
+<p>Chaînes de chakra capables notamment de retenir et de maîtriser des adversaires puissants.</p>
+</div>
+
+</div>
+</section>
+
+<section class="category">
+<h2>Autres capacités remarquables</h2>
+<div class="cards">
+
+<div class="card">
+<span class="tag">Kekkei Genkai</span>
+<h3>Mokuton</h3>
+<p>Libération du bois, combinaison du Suiton et du Doton. Capacité emblématique de Hashirama Senju.</p>
+</div>
+
+<div class="card">
+<span class="tag">Jiton</span>
+<h3>Sable de fer</h3>
+<p>Technique magnétique permettant de contrôler le sable de fer. Utilisée notamment par le troisième Kazekage.</p>
+</div>
+
+<div class="card">
+<span class="tag">Capacité sensorielle</span>
+<h3>Perception de Karin</h3>
+<p>Karin possède une capacité sensorielle exceptionnelle lui permettant de détecter et distinguer les signatures de chakra.</p>
+</div>
+
+<div class="card">
+<span class="tag">Pouvoir des Six Chemins</span>
+<h3>Orbes de vérité</h3>
+<p>Sphères de chakra pouvant prendre différentes formes et neutraliser de nombreuses techniques de ninjutsu.</p>
+</div>
+
+<div class="card">
+<span class="tag">Kekkei Mōra</span>
+<h3>Pouvoirs de Kaguya</h3>
+<p>Capacités exceptionnelles de Kaguya Ōtsutsuki, notamment ses techniques dimensionnelles et ses os cendrés meurtriers.</p>
+</div>
+
+</div>
+</section>
+
+<div class="no-results" id="noResults">
+    Aucune technique ne correspond à ta recherche.
+</div>
+
+</main>
+
+<footer>
+    Encyclopédie des pouvoirs de Naruto
+</footer>
+
+<script>
+const searchBar = document.getElementById("searchBar");
+const cards = document.querySelectorAll(".card");
+const categories = document.querySelectorAll(".category");
+const noResults = document.getElementById("noResults");
+const resultCount = document.getElementById("resultCount");
+
+function normalizeText(text) {
+    return text
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+}
+
+searchBar.addEventListener("input", function () {
+    const search = normalizeText(this.value.trim());
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+        const content = normalizeText(card.textContent);
+        const matches = content.includes(search);
+
+        card.style.display = matches ? "" : "none";
+
+        if (matches) {
+            visibleCount++;
+        }
+    });
+
+    categories.forEach(category => {
+        const visibleCards = category.querySelectorAll(
+            '.card:not([style*="display: none"])'
+        );
+
+        category.style.display =
+            visibleCards.length > 0 ? "" : "none";
+    });
+
+    noResults.style.display =
+        visibleCount === 0 ? "block" : "none";
+
+    resultCount.textContent =
+        visibleCount + " technique(s) trouvée(s)";
+});
+</script>
+
+</body>
+</html>
+
+
